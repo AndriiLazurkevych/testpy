@@ -12,5 +12,5 @@ jobs:
       - name: install pytest
         run: pip install pytest  
       - name: utest
-        run: pytest .        
+        run: pytest tests.py        
   
