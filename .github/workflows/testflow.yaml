@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: install pytest
+        run: pip install pytest  
       - name: utest
         uses: pavelzw/pytest-action@v2
         with:
